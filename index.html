@@ -12,7 +12,8 @@
         }
 
         body {
-            background-color: rgb(1, 1, 49);
+            background-color: rgb(30 24 66);
+            ;
             color: white;
             font-family: sans-serif;
         }
@@ -62,13 +63,15 @@
 
 
 
-
         .leftSection {
             font-size: 2.5rem;
         }
 
         .rightSection img {
-            width: 80%;
+            width: 133%;
+            position: relative;
+            right: 180px;
+
 
         }
 
@@ -144,7 +147,7 @@
             color: gray;
             font-size: 10px;
             margin-left: -5px;
-            width : 100px;
+            width: 100px;
             font-style: italic;
         }
 
@@ -156,17 +159,40 @@
 
         .footer {
             display: flex;
-            padding: 23px 122px;
+            padding: 30px 10px;
             justify-content: space-evenly;
+        }
+
+        #underline {
+            width: 200px;
+            margin-left: -2px;
+            margin-top: 10px;
+            background-color: rgb(246, 247, 248);
         }
 
         .footer ul {
             list-style: none;
         }
 
-        .footer > div {
+        .footer>div {
             width: 123pxT;
         }
+
+        .footer-second {
+            width: 45px;
+            position: relative;
+            display: flex;
+        }
+
+        .image-footer {
+            
+            width: 45px;
+            position: relative;
+            margin-right: 50px;
+
+        }
+
+
     </style>
 </head>
 
@@ -205,7 +231,7 @@
             </div>
             <div class="rightSection">
 
-                <img src="images/bg.png" alt="developer image">
+                <img src="images/dev_gif.gif" alt="developer image">
 
 
             </div>
@@ -216,13 +242,18 @@
 
         <section class="secondSection">
             <hr>
-            <span class="text-gray">What I Have Done So Far</span>
+            <span class="text-gray"><i>What I Have Done So Far</i></span>
+            <br>
+            <hr id="underline">
             <h1>Work Experience</h1>
+            <br>
+            <br>
             <div class="box">
                 <div class="vertical">
                     <img class="image-top" src="images/hat.png" alt="hat image">
                     <div class="vertical-title">EXTC Engineering (2017-2021)</div>
-                    <div class="vertical-desc">I achieved a CGPA of 7.45 after completing my BE in EXTC engineering at Mumbai University.</div>
+                    <div class="vertical-desc">I achieved a CGPA of 7.45 after completing my BE in EXTC engineering at
+                        Mumbai University.</div>
 
                 </div>
 
@@ -236,21 +267,24 @@
                 <div class="vertical">
                     <img class="image-top" src="images/tcs.png" alt="tcs logo png">
                     <div class="vertical-title">Systems Engineer (2023-2024)</div>
-                    <div class="vertical-desc">Received appreciation award from client (State Bank Of India) for various automation tasks</div>
+                    <div class="vertical-desc">Received appreciation award from client (State Bank Of India) for various
+                        automation tasks</div>
 
                 </div>
 
                 <div class="vertical">
                     <img class="image-top" src="images/buffer.png" alt="buffer png">
                     <div class="vertical-title">Coming Soon....</div>
-                    <div class="vertical-desc">Any fool can write code that a computer can understand. Good programmers write code that humans can understand</div>
+                    <div class="vertical-desc">Any fool can write code that a computer can understand. Good programmers
+                        write code that humans can understand</div>
 
                 </div>
 
                 <div class="vertical">
                     <img class="image-top" src="images/buffer.png" alt="buffer png">
                     <div class="vertical-title">Coming Soon....</div>
-                    <div class="vertical-desc">Most good programmers do programming not because they expect to get paid or get adulation by the public but because it is fun to program</div>
+                    <div class="vertical-desc">Most good programmers do programming not because they expect to get paid
+                        or get adulation by the public but because it is fun to program</div>
 
                 </div>
 
@@ -269,34 +303,12 @@
         <div class="footer">
             <div class="footer-first">
                 <h3>Yash's Developer Portfolio</h3>
-
-
-
             </div>
             <div class="footer-second">
 
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact Me</li>
-                    <li>Services</li>
-                </ul>
-            </div>
-            <div class="footer-third">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact Me</li>
-                    <li>Services</li>
-                </ul>
-            </div>
-            <div class="footer-fourth">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact Me</li>
-                    <li>Services</li>
-                </ul>
+                <a href="https://github.com/Yash-Tangadi" target="_blank"><img class = "image-footer"src="images/git.png" alt="git hub image"></a>
+                <a href="https://www.linkedin.com/in/tangadi-yash" target="_blank"><img class = "image-footer"src="images/linkedin.png" alt="linedin image"></a>
+                <a href="https://www.youtube.com/@IndianGameology" target="_blank"><img class = "image-footer"src="images/youtube.png" alt="youtiube image"></a>
             </div>
         </div>
 
@@ -309,7 +321,7 @@
 
     <script>
         var typed = new Typed('#element', {
-            strings: ['Fullstack Java Developer', 'Gaming Content Creator', 'Video Editor', 'Freelancer','Fullstack Java Developer', 'Gaming Content Creator', 'Video Editor', 'Freelancer','Fullstack Java Developer', 'Gaming Content Creator', 'Video Editor', 'Freelancer','Fullstack Java Developer', 'Gaming Content Creator', 'Video Editor', 'Freelancer','Fullstack Java Developer', 'Gaming Content Creator', 'Video Editor', 'Freelancer','Fullstack Java Developer', 'Gaming Content Creator', 'Video Editor', 'Freelancer'],
+            strings: ['Fullstack Java Developer', 'Gaming Content Creator', 'Video Editor', 'Freelancer', 'Fullstack Java Developer', 'Gaming Content Creator', 'Video Editor', 'Freelancer', 'Fullstack Java Developer', 'Gaming Content Creator', 'Video Editor', 'Freelancer', 'Fullstack Java Developer', 'Gaming Content Creator', 'Video Editor', 'Freelancer', 'Fullstack Java Developer', 'Gaming Content Creator', 'Video Editor', 'Freelancer', 'Fullstack Java Developer', 'Gaming Content Creator', 'Video Editor', 'Freelancer'],
             typeSpeed: 60,
         });
 
